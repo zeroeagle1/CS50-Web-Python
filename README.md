@@ -1,6 +1,6 @@
 # README
 
-this is my implementation of what viewed on [CS50-Web](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+We)
+this is my implementation of what's viewed on class 3 of [CS50-Web](https://courses.edx.org/courses/course-v1:HarvardX+CS50W+We)
 
 ### Requirements
 * Flask
