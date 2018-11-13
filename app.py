@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 import datetime
 app = Flask(__name__)
 
@@ -16,3 +16,13 @@ def checkDate():
 @app.route("/more")
 def more():
     return render_template("more.html")
+
+@app.route("/form")
+def form():
+    return render_template("form.html")
+
+# Note: that route can only be accesed via post request
+@app.route("/hello", methods=["POST"])
+def hello():
+    name = request.form.get("name")
+    return render_template("hello.html", name=name)
