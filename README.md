@@ -1,10 +1,6 @@
 # README
 
-this is my implementation of what's viewed on class 3 of [CS50-Web](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)
+this is my note and implementation of what i've learned in the [CS50-Web] course(https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)
 
-### Requirements
-* Flask
-* flask-session
-
-### How to run
-* Open a python shell and type **flask run**
+### Contents
+* week3 - flask
