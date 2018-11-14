@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    Sucess !
+{% endblock %}
+
+{% block body %}
+    <p>Add another passenger?</p>
+    <form action="{{ url_for('index') }}">
+        <div class="form-group">
+            <button class="btn btn-primary">Yes</button>
+        </div>
+    </form>
+    
+{% endblock %}
+
